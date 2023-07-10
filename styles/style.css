@@ -54,6 +54,7 @@ margin-top: 20px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
+    font-size: 16px;
 }
 .title-description {
     margin-bottom: 40px;
@@ -63,7 +64,6 @@ margin-top: 20px;
 /* End Global css */
 .heder-section{
     background: rgba(229, 84, 115, 0.10);
-    width: 100vw;
     height: 100vh;
 }
 .header-wrapper{
@@ -73,7 +73,7 @@ margin-top: 20px;
 }
 .banner-img{
     width: 473px;
-    margin-top: 26px;
+    margin-top: 30px;
        /* width: 72%; */
 }
 .banner-img > img{
@@ -105,6 +105,14 @@ font-weight: 800;
     align-items: center;
     padding: 40px 0px 0px 0px;
 }
+.featured-img-wrapper > div > .div-2 {
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.featured-img-wrapper > div > .div-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
 .featured-img-wrapper > div > div > img{
     width: 59%;
     height: 89%;
@@ -127,13 +135,18 @@ font-weight: 800;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background: #e5e5e5;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
     padding: 40px 80px;
     margin: 80px 0px;
 }
+.service-wrapper img {
+    width: 70px;
+}
 /* Hot deals section */
 .hot-deals {
-    background: #ffecd3;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
     margin-bottom: 50px;
 }
 
@@ -165,7 +178,7 @@ span.off {
 .flower-wrapper {
     display: flex;
     gap: 15px;
-    margin: 40px 0px 80px 0px;
+    margin: 40px 45px 100px 0px;
 }
 .flower-wrapper > img {
     width: 25%;
@@ -225,4 +238,10 @@ footer {
 }
 .footer-wrp > p {
     margin-bottom: 25px;
+    font-size: 16px;
+    color: #a5a3a3;
+}
+.last-part-footer{
+    color: gray !important;
+    font-size: 14px !important;
 }
