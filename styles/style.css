@@ -336,7 +336,7 @@ h4.flower-name {
     justify-content: space-between;
     font-weight: bold;
 }
-h3.flower-name {
+h3 .flower-name {
     color: red;
     font-size: 30px;
 }
