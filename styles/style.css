@@ -147,7 +147,6 @@ background: rgba(5, 151, 160, 0.15);
 .hot-deals {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin-bottom: 50px;
 }
 
 .hot-deals-wrpper{
@@ -244,4 +243,108 @@ footer {
 .last-part-footer{
     color: gray !important;
     font-size: 14px !important;
+}
+
+/* my featured style */
+.flower {
+    width: 270px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 2px 9px 0px #d5d5d5;
+    border-left: 1px solid #f9f5f5;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.flower img {
+    width: 100%;
+    height: 220px;
+}
+
+.flower-description {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.buy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.des-left {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -11px;
+}
+
+h4.flower-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: orangered;
+}
+
+.buy span {
+    font-size: 14px;
+    color: gray;
+}
+.buy-flower-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 39px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.buy > button {
+    background: #E55473;
+    color: white;
+    padding: 2px 10px;
+    border: 1px solid #E55473;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.buy button:hover {
+    background: transparent;
+    color: #E55473;
+}
+.buy-flowers {
+    background: #f1f1f1;
+    padding: 60px 0px 25px 0px;
+    margin-bottom: 80px;
+}
+/* Best sell flower */
+.image > img {
+    width: 100%;
+}
+
+.image {
+    border: 3px solid #fff;
+    padding: 4px;
+    width: 400px;
+}
+
+.best-flower {
+    display: flex;
+    padding: 60px 50px;
+    margin: 50px;
+    box-shadow: 6px 0px 20px 0px #7fff21;
+}
+.total-sell {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+h3.flower-name {
+    color: red;
+    font-size: 30px;
+}
+.sapla-description {
+    padding: 0px 0px 0px 100px;
+    width: 693px;
+}
+.best-flower:hover {
+    background: white;
+    cursor: pointer;
 }
