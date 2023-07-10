@@ -1,3 +1,67 @@
-h1{
-    color: red;
+/* google font start */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;1,100&display=swap');
+/* end google font */
+
+
+/* global css/ style */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/* for all paragraph tag */
+.paragraph{
+color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-top: 20px;
+}
+/* for all button */
+.shop-btn{
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    border: 1px solid #E55473;
+    padding: 15px 25px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.shop-btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+/* End Global css */
+.heder-section{
+    background: rgba(229, 84, 115, 0.10);
+    width: 100vw;
+    height: 100vh;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-img{
+    width: 473px;
+    margin-top: 26px;
+       /* width: 72%; */
+}
+.banner-img > img{
+    width: 100%;
+}
+.banner-description h1 {
+color: #272727;
+font-size: 60px;
+font-weight: 800;
+}
+/* Header section Done */
